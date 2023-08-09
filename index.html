@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <title>Bootstrap demo</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Epic Games</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    
+            </div>
+
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="epicstore.jpg" class="d-block w-100" alt="..." height="700">
+            </div>
+            <div class="carousel-item">
+                <img src="epicgames.jpg" class="d-block w-100" alt="..." height="700">
+            </div>
+            <div class="carousel-item">
+                <img src="menuepic.jpg" class="d-block w-100" alt="..." height="700">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="row">
+        <div class="col-6 col-md-7">
+            <div class="card" style="width: 33rem;">
+                <img src="gta5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">GTA5</h5>
+                    <p class="card-text">Grand Theft Auto V es un videojuego de acción-aventura de mundo abierto en
+                        tercera persona desarrollado por el estudio escocés Rockstar North y distribuido por Rockstar
+                        Games.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        comprar
+                      </button>
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalLabel">QUE COMIENCE LA AVENTURA</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              ¿quieres descargar este juego? ingresa a nuestra pagina oficial y <a href="https://www.epicgames.com/site/es-ES/home"> descargalo </a>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>                            
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-5">
+            <div class="card" style="width: 33rem;">
+                <img src="valorant.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">VALORANT</h5>
+                    <p class="card-text">Valorant es un hero shooter en primera persona multijugador gratuito
+                        desarrollado y publicado por Riot Games. El juego se anunció por primera vez con el nombre en
+                        clave Project A en octubre de 2019. Fue lanzado para Microsoft Windows el 2 de junio de 2020
+                        después de su beta cerrada lanzada el 7 de abril de 2020.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            comprar
+                          </button>
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  ¿quieres descargar este juego? ingresa a nuestra pagina oficial y <a href="https://www.epicgames.com/site/es-ES/home"> descargalo </a>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>                            
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <br><br><br>
+        <div class="row">
+            <div class="col-6 col-md-4">
+                <div class="card" style="width: 33rem;">
+                    <img src="leagueoflegend.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">LEAGUE OF LEGENDS</h5>
+                        <p class="card-text">League of Legends, es un videojuego multijugador de arena de batalla en
+                            línea desarrollado y publicado por Riot Games. Inspirándose en Defense of the Ancients, un
+                            mapa personalizado para Warcraft III, los fundadores de Riot buscaron desarrollar un juego
+                            independiente del mismo género.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                comprar
+                              </button>
+                              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      ¿quieres descargar este juego? ingresa a nuestra pagina oficial y <a href="https://www.epicgames.com/site/es-ES/home"> descargalo </a>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>                            
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4">
+                <div class="card" style="width: 33rem;">
+                    <img src="rocketleague.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ROCKET LEAGUE</h5>
+                        <p class="card-text">Rocket League es un videojuego que combina el fútbol con los vehículos. Fue
+                            desarrollado por Psyonix y lanzado el 7 de julio de 2015. Fue lanzado Free to play en
+                            septiembre de 2020. Se encuentra disponible en español, y tiene modos de juego cooperativo,
+                            de un jugador y en línea.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                               comprar
+                              </button>
+                              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      ¿quieres descargar este juego? ingresa a nuestra pagina oficial y <a href="https://www.epicgames.com/site/es-ES/home"> descargalo </a>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>                            
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4">
+                <div class="card" style="width: 33rem;">
+                    <img src="fallguys.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">FALL GUYS</h5>
+                        <p class="card-text">Fall Guys es un videojuego de plataformas y battle royale gratuito
+                            desarrollado por Mediatonic. En el videojuego participan hasta 40 jugadores que controlan
+                            criaturas parecidas a gominolas y compiten entre sí en una serie de minijuegos seleccionados
+                            al azar, como carreras de obstáculos o fútbol en equipo.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                comprar
+                              </button>
+                              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      ¿quieres descargar este juego? ingresa a nuestra pagina oficial y <a href="https://www.epicgames.com/site/es-ES/home"> descargalo </a>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>                            
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-md-4">
+                <div class="card" style="width: 33rem;">
+                    <img src="fornite.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">FORTNITE</h5>
+                        <p class="card-text">Fortnite es un videojuego del año 2017 desarrollado por la empresa Epic
+                            Games lanzado como diferentes paquetes de software que presentan diferentes modos de
+                            juego, pero que comparten el mismo motor de juego y mecánicas. Fue anunciado en los
+                            premios Spike Video Game Awards en 2011</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                comprar
+                              </button>
+                              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      ¿quieres descargar este juego? ingresa a nuestra pagina oficial y <a href="https://www.epicgames.com/site/es-ES/home"> descargalo </a>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>                            
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4">
+                <div class="card" style="width: 33rem;">
+                    <img src="control.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CONTROL</h5>
+                        <p class="card-text">Control narra la historia de Jesse Faden y su búsqueda personal de
+                            respuestas mientras se adapta al puesto de directora. </p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                               comprar
+                              </button>
+                              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                      ¿quieres descargar este juego? ingresa a nuestra pagina oficial y <a href="https://www.epicgames.com/site/es-ES/home"> descargalo </a>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>                            
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <div class="row">
+    <div class="col" id="arroz">
+   
+    </div>
+    <div class="col">
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+         ¿por que usar epicgames?
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">La Epic Games Store es una plataforma de juegos en línea que ofrece juegos exclusivos, descuentos y juegos gratuitos cada semana. Destaca por su apoyo a desarrolladores y competencia en el mercado. Aunque tiene beneficios, también ha sido controvertida por su enfoque en la exclusividad y preocupaciones de privacidad.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        ¿Que plataformas es utilizada epic games?
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Epic Games Store es una plataforma de distribución digital de videojuegos desarrollada y gestionada por Epic Games, la compañía detrás de juegos populares como Fortnite y Gears of War. La plataforma está diseñada para ser utilizada en dispositivos de escritorio y ofrece una variedad de juegos para su compra y descarga..</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          ¿que es epic games?
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Epic Games es una compañía de desarrollo de videojuegos y tecnología con sede en Cary, Carolina del Norte, Estados Unidos. Fue fundada en 1991 por Tim Sweeney y se ha destacado por su trabajo en la creación de motores de juego y juegos populares. Uno de sus logros más conocidos es la creación del motor de juego Unreal Engine, ampliamente utilizado en la industria del juego y en aplicaciones de simulación y visualización.
+          Epic Games también es famosa por el éxito de su juego Battle Royale llamado Fortnite, que se convirtió en un fenómeno cultural y un título muy popular en todo el mundo. Además de su enfoque en el desarrollo de juegos, Epic Games ha incursionado en la distribución de juegos en línea a través de la plataforma Epic Games Store, que compite con otras tiendas digitales de juegos.</div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<hr><br><br><br>
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+  
+      <h2 style="color: rgb(0, 0, 0);">contactos</h2><br><br>
+     <a href="https://web.facebook.com/epicgames">
+      <img src="Logo_de_Facebook.png"  alt="" height="40px"  > <br><br> </a>  
+      <a href="https://www.whatsapp.com/?lang=es_LA">
+  
+      <img src="wpp.png" alt="" height="40px" ><br><br></a>
+      <a href="https://www.instagram.com/epicgames/">
+      <img src="inst.png" alt="" height="40px" ><br><br>
+      </a>
+    </div> 
+    <div class="col">
+     <h2 style="color: rgb(0, 0, 0);"> Creador</h2><br>
+     <img src="azul.png" alt="" height="150px"><br>
+     juanolivella855@gmail.com
+    </div>
+  </div>
+</div>
+    
+</body>
+
+</html>
